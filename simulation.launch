@@ -2,11 +2,11 @@
 <launch>
 
   <!--set to the required robot and world-->
-  <arg name="robotname" default="mpo_500"/>
+  <arg name="robotname" default="mp_500"/>
   <arg name="robotworld" default ="empty.world"/>
   
   <!--To launch RVIZ set the value to true-->
-  <arg name="rviz" value="true"/>
+  <arg name="rviz" value="false"/>
 
   <!--To launch scanunifier set the value to true-->
   <arg name="scanunifier" value="true"/>
