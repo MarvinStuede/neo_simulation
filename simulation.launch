@@ -3,7 +3,7 @@
 
   <!--set to the required robot and world-->
   <arg name="robotname" default="mpo_500"/>
-  <arg name="robotworld" default ="neobotix_env2.world"/>
+  <arg name="robotworld" default ="empty.world"/>
   
   <!--To launch RVIZ set the value to true-->
   <arg name="rviz" value="true"/>
@@ -27,7 +27,7 @@
   <arg name="amcl" value="false"/>
 
   <!--To launch move base-->
-  <arg name="navigation" value="true"/> 
+  <arg name="navigation" value="false"/> 
 
   <!--To set the local planner-->
   <arg name="localplanner" value="teb"/> 
@@ -124,7 +124,7 @@
 
  <group if="$(arg amcl)">
  <include file="$(find neo_simulation)/config/$(arg robotname)/amcl/launch/$(arg robotname)_amcl.launch"/>
- </group>
+ </group>-
 
  <!--if arg move_base is set to true-->
 
