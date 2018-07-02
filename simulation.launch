@@ -2,8 +2,8 @@
 <launch>
 
   <!--set to the required robot and world-->
-  <arg name="robotname" value="mpo_500"/>
-  <arg name="robotworld" value="neobotix_env2.world"/>
+  <arg name="robotname" default="mpo_500"/>
+  <arg name="robotworld" default ="neobotix_env2.world"/>
   
   <!--To launch RVIZ set the value to true-->
   <arg name="rviz" value="true"/>
