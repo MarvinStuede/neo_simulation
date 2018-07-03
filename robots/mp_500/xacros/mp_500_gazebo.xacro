@@ -80,7 +80,7 @@
       <publishWheelTF>true</publishWheelTF>
       <leftJoint>wheel_left_joint</leftJoint>
       <rightJoint>wheel_right_joint</rightJoint>
-      <wheelSeparation>0.5390</wheelSeparation>
+      <wheelSeparation>0.5068</wheelSeparation>
       <wheelDiameter>0.26</wheelDiameter>
       <torque>1</torque>
       <commandTopic>cmd_vel</commandTopic>
